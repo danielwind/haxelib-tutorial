@@ -1,0 +1,51 @@
+#-----------------------------------------------------#
+# @author: Daniel Wind
+# This build file contains multiple target compilation
+# To execute this file, run:
+# haxe build.hxml
+#-----------------------------------------------------#
+
+# Remove all bin files (if any)
+-cmd rm -rf bin/*
+
+--next
+
+# Build JS File (NodeJS)
+-main BestDealAlgorithm
+-dce full
+-js bin/bestdeal.js
+
+--next 
+
+# Build Jar File (Java)
+-main BestDealAlgorithm
+-dce full
+-java bin/bestdeal.java
+
+--next 
+
+# Build iOS compatible (C++)
+-main BestDealAlgorithm
+-dce full
+-cpp bin/bestdeal.cpp
+
+--next 
+
+# Build Python file
+-main BestDealAlgorithm
+-dce full
+-python bin/bestdeal.py 
+
+--next 
+
+# Build PHP file
+-main BestDealAlgorithm
+-dce full
+-php bin/bestdeal.php
+
+--next
+
+# Build C# file
+-main BestDealAlgorithm
+-dce full
+-cs  bin/bestdeal.cs
