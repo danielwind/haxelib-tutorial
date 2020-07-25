@@ -20,13 +20,19 @@
 # Build Jar File (Java)
 -main BestDealAlgorithm
 -dce full
--java bin/bestdeal.java
+#-java bin/bestdeal.jar
+--jvm bin/bestdeal.jar
 
 --next 
 
 # Build iOS compatible (C++)
+# -D iphonesim - For targeting the simulator
 -main BestDealAlgorithm
 -dce full
+-D static_link
+-D iphoneos 
+-D objc
+-D file_extension=mm
 -cpp bin/bestdeal.cpp
 
 --next 
