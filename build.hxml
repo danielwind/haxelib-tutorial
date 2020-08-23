@@ -11,26 +11,26 @@
 --next
 
 # Build JS File (NodeJS)
--main BestDealAlgorithm
+-main BDAEngine
 -dce full
 -js bin/bestdeal.js
 
 --next 
 
 # Build Jar File (Java)
--main BestDealAlgorithm
+-main BDAEngine
 -dce full
 #-java bin/bestdeal.jar
 --jvm bin/bestdeal.jar
 
 --next 
 
-# Build iOS compatible (C++)
-# -D iphonesim - For targeting the simulator
--main BestDealAlgorithm
+# Build iOS compatible (ObjC++)
+# -D iphoneos  - For targeting the real device
+-main BDAEngine
 -dce full
 -D static_link
--D iphoneos 
+-D iphonesim
 -D objc
 -D file_extension=mm
 -cpp bin/bestdeal.cpp
@@ -38,20 +38,20 @@
 --next 
 
 # Build Python file
--main BestDealAlgorithm
+-main BDAEngine
 -dce full
 -python bin/bestdeal.py 
 
 --next 
 
 # Build PHP file
--main BestDealAlgorithm
+-main BDAEngine
 -dce full
 -php bin/bestdeal.php
 
 --next
 
 # Build C# file
--main BestDealAlgorithm
+-main BDAEngine
 -dce full
 -cs  bin/bestdeal.cs

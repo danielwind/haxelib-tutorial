@@ -1,0 +1,153 @@
+{
+	"name": "root",
+	"classes": [
+		{
+			"name": "tests.BestDealTestCases",
+			"pos": {
+				"line": 6,
+				"file": "tests/BestDealTestCases.hx"
+			},
+			"id": "tests.BestDealTestCases",
+			"methods": [
+				{
+					"name": "testValidBestDealFourPurchases",
+					"line": 20,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.9534061
+				},
+				{
+					"name": "testValidBestDealThreePurchases",
+					"line": 15,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95341206
+				},
+				{
+					"name": "testValidBestDealTwoPurchases",
+					"line": 10,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95341706
+				},
+				{
+					"name": "testValidBestDealZeroPurchases",
+					"line": 25,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95342112
+				}
+			]
+		},
+		{
+			"name": "tests.EligibleItemTestCases",
+			"pos": {
+				"line": 6,
+				"file": "tests/EligibleItemTestCases.hx"
+			},
+			"id": "tests.EligibleItemTestCases",
+			"methods": [
+				{
+					"name": "testEligibleItem",
+					"line": 12,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95342898
+				},
+				{
+					"name": "testIneligibleItem",
+					"line": 17,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95343399
+				}
+			]
+		},
+		{
+			"name": "tests.LunchTimeTestCases",
+			"pos": {
+				"line": 5,
+				"file": "tests/LunchTimeTestCases.hx"
+			},
+			"id": "tests.LunchTimeTestCases",
+			"methods": [
+				{
+					"name": "testAfterLunch",
+					"line": 21,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95344305
+				},
+				{
+					"name": "testBeforeLunch",
+					"line": 16,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95344806
+				},
+				{
+					"name": "testLunchTime",
+					"line": 11,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95345211
+				}
+			]
+		},
+		{
+			"name": "tests.ValidationTestCases",
+			"pos": {
+				"line": 6,
+				"file": "tests/ValidationTestCases.hx"
+			},
+			"id": "tests.ValidationTestCases",
+			"methods": [
+				{
+					"name": "testInvalidItemId",
+					"line": 18,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95346308
+				},
+				{
+					"name": "testInvalidItemPrice",
+					"line": 24,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95346808
+				},
+				{
+					"name": "testInvalidPreviousPurchases",
+					"line": 30,
+					"executionTime": 0,
+					"errorLine": null,
+					"state": "success",
+					"message": null,
+					"timestamp": 1598138966.95347309
+				}
+			]
+		}
+	]
+}

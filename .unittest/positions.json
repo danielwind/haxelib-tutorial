@@ -1,0 +1,100 @@
+{
+	"tests.LunchTimeTestCases": {
+		"pos": {
+			"line": 5,
+			"file": "tests/LunchTimeTestCases.hx"
+		},
+		"methods": {
+			"testBeforeLunch": {
+				"line": 16
+			},
+			"testAfterLunch": {
+				"line": 21
+			},
+			"fridayAtLunch": {
+				"line": 8
+			},
+			"fridayBeforeLunch": {
+				"line": 7
+			},
+			"fridayAfterLunch": {
+				"line": 9
+			},
+			"testLunchTime": {
+				"line": 11
+			}
+		}
+	},
+	"tests.EligibleItemTestCases": {
+		"pos": {
+			"line": 6,
+			"file": "tests/EligibleItemTestCases.hx"
+		},
+		"methods": {
+			"invalidItemId": {
+				"line": 10
+			},
+			"testEligibleItem": {
+				"line": 12
+			},
+			"validItemId": {
+				"line": 8
+			},
+			"testIneligibleItem": {
+				"line": 17
+			}
+		}
+	},
+	"tests.ValidationTestCases": {
+		"pos": {
+			"line": 6,
+			"file": "tests/ValidationTestCases.hx"
+		},
+		"methods": {
+			"itemPrice": {
+				"line": 9
+			},
+			"previousPurchases": {
+				"line": 10
+			},
+			"testInvalidItemPrice": {
+				"line": 24
+			},
+			"testInvalidPreviousPurchases": {
+				"line": 30
+			},
+			"testInvalidItemId": {
+				"line": 18
+			},
+			"itemId": {
+				"line": 8
+			},
+			"setup": {
+				"line": 12
+			}
+		}
+	},
+	"tests.BestDealTestCases": {
+		"pos": {
+			"line": 6,
+			"file": "tests/BestDealTestCases.hx"
+		},
+		"methods": {
+			"testValidBestDealZeroPurchases": {
+				"line": 25
+			},
+			"testValidBestDealFourPurchases": {
+				"line": 20
+			},
+			"testValidBestDealTwoPurchases": {
+				"line": 10
+			},
+			"validItem": {
+				"line": 8
+			},
+			"testValidBestDealThreePurchases": {
+				"line": 15
+			}
+		}
+	}
+}
