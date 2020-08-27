@@ -1,0 +1,5 @@
+-lib hxjava
+-lib hxcpp
+-lib hxcs
+-lib utest
+-lib json2object

@@ -8,6 +8,9 @@
 # Remove all bin files (if any)
 -cmd rm -rf bin/*
 
+#load dependencies file
+dependencies.hxml
+
 --next
 
 # Build JS File (NodeJS)
