@@ -9,21 +9,22 @@
 -cmd rm -rf bin/*
 
 #load dependencies file
-dependencies.hxml
+#dependencies.hxml
 
 --next
 
 # Build JS File (NodeJS)
 -main BDAEngine
+-D js-es=6
 -dce full
 -js bin/bestdeal.js
 
 --next 
 
 # Build Jar File (Java)
+#-java bin/bestdeal.jar
 -main BDAEngine
 -dce full
-#-java bin/bestdeal.jar
 --jvm bin/bestdeal.jar
 
 --next 
@@ -36,7 +37,9 @@ dependencies.hxml
 -D iphonesim
 -D objc
 -D file_extension=mm
--cpp bin/bestdeal.cpp
+-D HXCPP_M64
+#-D NO_PRECOMPILED_HEADERS
+-cpp bin/bestdeal
 
 --next 
 
