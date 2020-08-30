@@ -29,7 +29,7 @@
 
 --next 
 
-# Build iOS compatible (ObjC++)
+# Build iOS compatible (Obj-C++)
 # -D iphoneos  - For targeting the real device
 -main BDAEngine
 -dce full
@@ -38,7 +38,6 @@
 -D objc
 -D file_extension=mm
 -D HXCPP_M64
-#-D NO_PRECOMPILED_HEADERS
 -cpp bin/bestdeal
 
 --next 

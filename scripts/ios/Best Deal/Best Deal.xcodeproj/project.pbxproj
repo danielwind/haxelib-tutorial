@@ -13,6 +13,8 @@
 		5752099D24FB788100A41325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5752099B24FB788100A41325 /* Main.storyboard */; };
 		5752099F24FB788200A41325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5752099E24FB788200A41325 /* Assets.xcassets */; };
 		575209A224FB788200A41325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575209A024FB788200A41325 /* LaunchScreen.storyboard */; };
+		575209AB24FB78A400A41325 /* libBDAEngine.iphonesim-64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 575209AA24FB78A400A41325 /* libBDAEngine.iphonesim-64.a */; };
+		575209AD24FB790A00A41325 /* bestdeal in Resources */ = {isa = PBXBuildFile; fileRef = 575209AC24FB790A00A41325 /* bestdeal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		5752099E24FB788200A41325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575209A124FB788200A41325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575209A324FB788200A41325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575209AA24FB78A400A41325 /* libBDAEngine.iphonesim-64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libBDAEngine.iphonesim-64.a"; path = "../../../bin/bestdeal/libBDAEngine.iphonesim-64.a"; sourceTree = "<group>"; };
+		575209AC24FB790A00A41325 /* bestdeal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bestdeal; path = ../../../../bin/bestdeal; sourceTree = "<group>"; };
+		575209AE24FB792C00A41325 /* BestDeal-Binding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BestDeal-Binding-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575209AB24FB78A400A41325 /* libBDAEngine.iphonesim-64.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				5752099424FB788100A41325 /* Best Deal */,
 				5752099324FB788100A41325 /* Products */,
+				575209A924FB78A400A41325 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +63,7 @@
 		5752099424FB788100A41325 /* Best Deal */ = {
 			isa = PBXGroup;
 			children = (
+				575209AC24FB790A00A41325 /* bestdeal */,
 				5752099524FB788100A41325 /* AppDelegate.swift */,
 				5752099724FB788100A41325 /* SceneDelegate.swift */,
 				5752099924FB788100A41325 /* ViewController.swift */,
@@ -63,8 +71,17 @@
 				5752099E24FB788200A41325 /* Assets.xcassets */,
 				575209A024FB788200A41325 /* LaunchScreen.storyboard */,
 				575209A324FB788200A41325 /* Info.plist */,
+				575209AE24FB792C00A41325 /* BestDeal-Binding-Header.h */,
 			);
 			path = "Best Deal";
+			sourceTree = "<group>";
+		};
+		575209A924FB78A400A41325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				575209AA24FB78A400A41325 /* libBDAEngine.iphonesim-64.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575209AD24FB790A00A41325 /* bestdeal in Resources */,
 				575209A224FB788200A41325 /* LaunchScreen.storyboard in Resources */,
 				5752099F24FB788200A41325 /* Assets.xcassets in Resources */,
 				5752099D24FB788100A41325 /* Main.storyboard in Resources */,
@@ -290,8 +308,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../../bin/bestdeal";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielwind.tutorials.Best-Deal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Best Deal/BestDeal-Binding-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,8 +328,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../../bin/bestdeal";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielwind.tutorials.Best-Deal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Best Deal/BestDeal-Binding-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
