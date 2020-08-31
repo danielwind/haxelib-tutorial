@@ -6,8 +6,4 @@
 //  Copyright © 2020 Daniel Wind. All rights reserved.
 //
 
-#ifndef BestDeal_Binding_Header_h
-#define BestDeal_Binding_Header_h
-
-
-#endif /* BestDeal_Binding_Header_h */
+void __hxcpp_lib_main();

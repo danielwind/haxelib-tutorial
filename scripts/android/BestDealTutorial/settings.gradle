@@ -1,0 +1,3 @@
+include ':bestdeal'
+include ':app'
+rootProject.name = "Best Deal Tutorial"

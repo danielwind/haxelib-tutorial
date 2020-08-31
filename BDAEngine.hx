@@ -5,8 +5,8 @@ class BDAEngine {
 
   private static var APPLICABLE_ITEMS = "[{\"id\":1001,\"name\":\"Hamburger\", \"price\": 9.99 },{\"id\":1002,\"name\":\"Taco\", \"price\": 5.99},{\"id\":1003,\"name\":\"Burrito\", \"price\": 8.99},{\"id\":1004,\"name\":\"Pizza\", \"price\": 2.99},{\"id\":1005,\"name\":\"Falafel\", \"price\": 3.99},{\"id\":1006,\"name\":\"Gyro\", \"price\": 4.99}]";
 
-  static public function main():Void {
-    trace("BDAEngine init!");
+  static public function main(itemId:Int, price:Float, previousPurchases:Int):Void {
+    trace("BDAEngine result: " + getBestDeal(itemId, price, previousPurchases));
   }
 
   public static function getBestDeal(itemId:Int, price:Float, previousPurchases:Int):Float{
